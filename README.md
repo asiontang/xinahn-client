@@ -1,5 +1,6 @@
-![]()
+![](https://raw.githubusercontent.com/xinahn/xinahn-client/master/preview.jpg)
 #信安搜索
+
 一个开源，高隐私，自架自用的聚合搜索引擎。
 
 前后端皆为NodeJS撰写，好上手，若有问题或需求请提交issue。

@@ -1,0 +1,21 @@
+.logoSection {
+  display: flex;
+  justify-content: center;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logoOuterContainer {
+  width: 20em;
+}
+.logoInnerContainer {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio) * 100%);
+}
+.logoInnerContainer canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}

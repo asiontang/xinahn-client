@@ -1,0 +1,39 @@
+.App-header {
+  text-align: center;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  position: relative;
+}
+
+.App-main {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  top: 24%;
+  left: 0;
+  right: 0;
+  z-index: 12;
+}
+
+.App-main-container {
+  position: relative;
+  padding: 0 7px;
+  max-width: 1270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-search-container {
+  padding: 1em;
+  max-width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: none;
+  width: 70%;
+}

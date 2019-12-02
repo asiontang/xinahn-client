@@ -1,0 +1,106 @@
+.resultHeader {
+  padding: 1em;
+  border-bottom: 1px solid #eaeaea;
+}
+.resultHeader img {
+  display: none;
+}
+@media only screen and (min-width: 560px) {
+  .resultHeader {
+    padding-top: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .resultHeader img {
+    display: block;
+  }
+  .headerRowQuery {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 800px;
+  }
+}
+.resultBody {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.searchingOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(249, 249, 249, 0.4)
+}
+.mainResultContainer {
+  width: 100%;
+}
+@media only screen and (min-width: 1080px) {
+  .mainResultContainer {
+    width: 800px;
+  }
+}
+.subResultContainer {
+  flex: 1;
+  display: none;
+}
+@media only screen and (min-width: 1080px) {
+  .subResultContainer {
+    display: block;
+  }
+}
+.subResultPanel {
+  max-width: 600px;
+  margin-top: 25px;
+  margin-right: 15px;
+}
+.moreButtonContainer {
+  width: 100%;
+  display: flex;
+}
+.moreButton {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  max-width: 620px;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+@media only screen and (min-width: 560px) {
+  .moreButtonContainer {
+    max-width: 800px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .moreButton {
+    width: 100%;
+    margin: 0 0 50px 0;
+  }
+}
+.moreButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.moreButton:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,15 @@
+.impressionContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.impressionContainer p {
+  color: #b2b2b2;
+  font-size: 14px;
+}

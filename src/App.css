@@ -1,0 +1,13 @@
+.App {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, "PingFang TC", 黑體-繁, "Heiti TC", 蘋果儷中黑, "Apple LiGothic Medium", 微軟正黑體, "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+  color: #222;
+}
+
+* {
+  outline: none;
+  text-decoration: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+}

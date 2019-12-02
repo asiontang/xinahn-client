@@ -1,5 +1,5 @@
 ![](https://raw.githubusercontent.com/xinahn/xinahn-client/master/preview.jpg)
-#信安搜索
+# 信安搜索
 
 一个开源，高隐私，自架自用的聚合搜索引擎。 [Demo点我](https://xinahn.com)
 

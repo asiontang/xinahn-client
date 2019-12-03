@@ -3,7 +3,7 @@
 
 一个开源，高隐私，自架自用的聚合搜索引擎。 [Demo点我](https://xinahn.com)
 
-前后端皆为NodeJS撰写，好上手，若有问题或需求请提交issue。
+前后端皆为Javascript撰写，好上手，若有问题或需求请[提交issue](https://github.com/xinahn/xinahn-client/issues)。
 
 此repo为前端代码，在部署之前请确认已经先跑完[后端](https://github.com/xinahn/xinahn-socket)。
 
@@ -39,4 +39,4 @@ $ service nginx reload
 打开 ```http://YOUR_SERVER_IP``` 即可开始使用搜寻了 :)
 
 ### License
-MIT
+[MIT](https://github.com/xinahn/xinahn-client/blob/master/LICENSE)

@@ -25,9 +25,9 @@ $ npm run build
 server {
 	...
 	root YOUR_CLIENT_DIRECTORY/xinahn-client/build;
-		location / {
-			try_files $uri $uri /index.html;
- 		}
+	location / {
+		try_files $uri $uri /index.html;
+ 	}
 	...
 }
 ```
@@ -38,5 +38,7 @@ $ service nginx reload
 ```
 打开 ```http://YOUR_SERVER_IP``` 即可开始使用搜寻了 :)
 
-### License
+
+
+# License
 [MIT](https://github.com/xinahn/xinahn-client/blob/master/LICENSE)

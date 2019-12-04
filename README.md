@@ -5,7 +5,7 @@
 
 前后端皆为Javascript撰写，好上手，若有问题或需求请[提交issue](https://github.com/xinahn/xinahn-client/issues)。
 
-此repo为前端代码，在部署之前请确认已经先跑完[后端](https://github.com/xinahn/xinahn-socket)。
+此repo为前端代码，在部署之前请确认已经先跑完[后端设置](https://github.com/xinahn/xinahn-socket)。
 
 ### 事前准备
 1. 确认已安装Nginx以及Node.js
